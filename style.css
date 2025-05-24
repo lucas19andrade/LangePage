@@ -1,0 +1,100 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #98dcf1, #264e71);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 30px 20px 10px;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.logo-img img {
+  max-width: 120px;
+  height: auto;
+}
+
+.logo-img img[alt="Texto Saúde"] {
+  max-width: 200px; 
+  height: auto;
+}
+
+
+.slogan img {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  flex: 1; /* Ocupa o espaço restante da tela */
+}
+
+section {
+  border-radius: 10px;
+  padding: 20px;
+  width: 320px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.tela-app img {
+  max-width: 250px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.botoes img {
+  width: 120px;
+}
+
+.titulo-servicos img,
+.titulo-vantagens img {
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+}
