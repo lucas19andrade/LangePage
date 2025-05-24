@@ -1,16 +1,18 @@
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
-}
+ 
 
 body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom, #98dcf1, #264e71);
+  background-attachment: fixed; /* importante para manter o gradiente fixo */
+  background-size: cover;       /* cobre toda a tela */
   text-align: center;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 header {
